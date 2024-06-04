@@ -1,0 +1,61 @@
+.card{
+    border: 3px solid blue;
+    background-color: rgb(101, 101, 139);
+    border-radius: 7px;
+}
+.card-head{
+    background-color: yellow;
+}
+.card-body{
+    background-color: aqua;
+}
+.card-footer{
+    background-color: red;
+}
+.card-2{
+    border: 3px solid blue;
+    background-color: rgb(101, 101, 139);
+    border-radius: 7px;
+}
+.card-head2{
+    background-color: yellow;
+}
+.card-body2{
+    background-color: aqua;
+}
+.card-footer2{
+    background-color: red;
+}
+.card-3{
+    border: 3px solid blue;
+    background-color: rgb(101, 101, 139);
+    border-radius: 7px;
+}
+.card-head3{
+    background-color: yellow;
+}
+.card-body3{
+    background-color: aqua;
+}
+.card-footer3{
+    background-color: red;
+}
+.my-grid{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    @media screen {
+        
+    }
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+#hero{
+    width: 100%;
+    padding: 20px;
+}
